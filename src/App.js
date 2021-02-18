@@ -15,7 +15,7 @@ class App extends Component {
         <div className="App">
           <Switch>
                 <Route exact path= "/" render={() => (
-                  <Redirect to="/add-details"/>
+                  <Redirect to="/users-list"/>
                 )}/>
                  <Route exact path='/add-details' component={AddDetails} />
                  <Route exact path='/miles-to-km' component={MilesToKm} />
